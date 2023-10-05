@@ -16,11 +16,12 @@
         <span style="--i:6;"><img src="imagens/foto6.jpeg" alt=""></span>
         <span style="--i:7;"><img src="imagens/foto7.jpeg" alt=""></span>
     </div>
-    <script type="tex/javascript">
+    <script>
         let box = document.querySelector('.box')
         window.onmousemove = function(e) {
             let x = e.clientX/3;
-            box.style.transform = "perspective(1000px) rotateY(" + x + deg)";
+            console.log(x); // Adicione esta linha para debug
+            box.style.transform = "perspective(1000px) rotateY("+ x +"deg)";
         }
     </script>
 </body>

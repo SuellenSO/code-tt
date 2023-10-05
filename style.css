@@ -16,7 +16,7 @@ body {
     width: 200px;
     height: 200px;
     transform-style: preserve-3d;
-    transform: perspective(1000px) rotateY('0deg');
+    transform: perspective(1000px) rotateY(0deg);
 }
 .box span {
     position: absolute;
@@ -26,7 +26,7 @@ body {
     height: 100%;
     transform-origin: center;
     transform-style: preserve-3d;
-    transform: rotateY(calc(var(--i)* 45deg)) translateZ(400PX);
+    transform: rotateY(calc(var(--i)* 45deg)) translateZ(400px);
 
 }
 .box span img {
